@@ -205,6 +205,8 @@ serve(app, model, [options])
  * **postCreate** - A function with the signature `function (res, result, done)` which is run after document creation.
  * **postDelete** - A function with the signature `function (res, result, done)` which is run after document deletion.
 
+ * **readPreference** - Set the readPreference
+
 ### defaults
 ```
 defaults(options)
